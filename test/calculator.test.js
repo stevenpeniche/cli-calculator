@@ -1,4 +1,4 @@
-const Calculator = require('./calculator.js');
+const Calculator = require('../lib/calculator.js');
 
 describe('add', () => {
   it('adds two numbers', () => {

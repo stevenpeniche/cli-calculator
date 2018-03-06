@@ -9,6 +9,7 @@
     "watch": "jest --watch *.js"
   },
   "dependencies": {
+    "chalk": "^2.3.2",
     "commander": "^2.14.1",
     "jest": "^22.4.2"
   }
