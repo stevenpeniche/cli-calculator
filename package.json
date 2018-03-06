@@ -1,0 +1,15 @@
+{
+  "name": "node-calculator",
+  "version": "1.0.0",
+  "main": "program.js",
+  "author": "Steven Peniche",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "watch": "jest --watch *.js"
+  },
+  "dependencies": {
+    "commander": "^2.14.1",
+    "jest": "^22.4.2"
+  }
+}
