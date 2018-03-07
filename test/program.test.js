@@ -1,4 +1,4 @@
-const calculate = require('../lib/program').calculate;
+const calculate = require('../lib/program.js').calculate;
 
 describe('calculate', () => {
   it('adds', () => {

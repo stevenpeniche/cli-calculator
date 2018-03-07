@@ -6,7 +6,10 @@
   "license": "MIT",
   "scripts": {
     "test": "jest",
-    "watch": "jest --watch *.js"
+    "watch": "jest --watch ./lib/*.js"
+  },
+  "jest": {
+    "roots": ["./lib", "./test"]
   },
   "dependencies": {
     "chalk": "^2.3.2",
